@@ -7,7 +7,7 @@ Route::post('oauth/access_token', function() {
 Route::get('/register',function() {
     $user = new App\User();
     $user->name="vitordangelo";
-    $user->email="vitordangelo10@gmail.com";
+    $user->email="vitordangelo11@gmail.com";
     $user->password = \Illuminate\Support\Facades\Hash::make("vitor123");
     $user->save();
 });
